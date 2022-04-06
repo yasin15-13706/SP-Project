@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-image: url(../image/R.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+.flex{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    border-bottom: 2px solid #0a5885;
+    background-color: rgba(131, 199, 245, 0.5);
+    position: relative;
+    padding: 2px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 2px 20px;
+    
+}
+nav ul li a {
+    color: black;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 2px;
+    padding: 9px 15px;
+    transition: 0.4s;
+
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+    background-color: #15cbf8;
+    border-radius: 20px;
+
+}
+
+#login-register-button{
+    margin: 10px 0;
+    padding: 20px 15px;
+    background-color: #15cbf8;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.75em;
+    color: #000;
+
+}
+
+#login-register-button:hover{
+    color: #fff;
+
+}
+#hero-image{
+    min-height: 505px;
+
+}
+
+.hero-marketing-text{
+    position: absolute;
+    margin: -30px auto 0;
+    width: 75%;
+    top: 30%;
+    left: 0;
+    right: 0;
+
+}
+
+.hero-marketing-text h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+    text-shadow: 0 8px 10px rgba(0,0,0,0.9);
+}
+
+.hero-marketing-text span {
+    color: #15cbf8;
+}
+.hero-marketing-text h2 {
+    width: 70%;
+    color: #fff;
+    line-height: 2;
+}
+.hero-marketing-text h3 {
+    width: 70%;
+    color: #fff;
+    line-height: 2;
+}
+.hero-marketing-text button {
+    padding: 9px 15px;
+    border: 2px solid #000000;
+    background-color: #15cbf8;
+    border-radius: 20px;
+    margin-top: 50px;
+}
